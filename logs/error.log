@@ -27,3 +27,97 @@
 [Tue Jul 21 10:54:58 2015] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://localhost.cie.recouvrement/
 [Tue Jul 21 10:54:58 2015] [error] [client 127.0.0.1] PHP   1. {main}() D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php:0, referer: http://localhost.cie.recouvrement/
 [Tue Jul 21 10:54:58 2015] [error] [client 127.0.0.1] PHP   2. sqlsrv_free_stmt() D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php:48, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 09:40:49 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/favicon.ico
+[Fri Jul 24 09:40:50 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/favicon.ico
+[Fri Jul 24 09:48:32 2015] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid object name 'Person.ContactType'.' in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php:49\nStack trace:\n#0 D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php(49): PDO->query('select * from P...')\n#1 {main}\n  thrown in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php on line 49, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 09:50:01 2015] [error] [client 127.0.0.1] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php on line 51, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 09:50:01 2015] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 09:50:01 2015] [error] [client 127.0.0.1] PHP   1. {main}() D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php:0, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 12:33:21 2015] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Incorrect syntax near 'go'.' in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php:70\nStack trace:\n#0 D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php(70): PDO->query('Use gesabeldev ...')\n#1 {main}\n  thrown in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php on line 70, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 12:33:42 2015] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: The active result for the query contains no fields.' in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php:71\nStack trace:\n#0 D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php(71): PDOStatement->fetch(2)\n#1 {main}\n  thrown in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php on line 71, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 12:46:31 2015] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: The active result for the query contains no fields.' in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php:122\nStack trace:\n#0 D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php(122): PDOStatement->fetch(2)\n#1 {main}\n  thrown in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php on line 122, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 12:46:56 2015] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: The active result for the query contains no fields.' in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php:122\nStack trace:\n#0 D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php(122): PDOStatement->fetch(2)\n#1 {main}\n  thrown in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php on line 122, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 14:04:32 2015] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function fetch() on a non-object in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php on line 195, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 14:04:32 2015] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 14:04:32 2015] [error] [client 127.0.0.1] PHP   1. {main}() D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php:0, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 14:05:25 2015] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function fetch() on a non-object in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php on line 195, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 14:05:25 2015] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 14:05:25 2015] [error] [client 127.0.0.1] PHP   1. {main}() D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php:0, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 14:10:31 2015] [error] [client 127.0.0.1] PHP Fatal error:  Call to a member function fetch() on a non-object in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php on line 195, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 14:10:31 2015] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 14:10:31 2015] [error] [client 127.0.0.1] PHP   1. {main}() D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php:0, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 14:11:59 2015] [error] [client 127.0.0.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[IMSSP]: There are no more rows in the active result set.  Since this result set is not scrollable, no more data may be retrieved.' in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php:192\nStack trace:\n#0 D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php(192): PDOStatement->fetch(5)\n#1 {main}\n  thrown in D:\\Projet\\_PHP\\recouvrement\\web\\views\\etat.php on line 192, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:12:08 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:12:08 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:12:38 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:12:39 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:14:26 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:14:26 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:14:34 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:14:34 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:17:31 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:17:32 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:17:32 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:17:32 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:17:34 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:17:35 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:17:35 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:17:35 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:17:41 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:17:41 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:19:33 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:19:33 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:19:33 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:19:33 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:19:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:19:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:19:45 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:19:45 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:20:22 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:20:22 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:20:24 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:20:24 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:21:46 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:21:47 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/lastVersion, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:21:48 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/lastVersion/js/jquery.dataTableGrouping.js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:22:55 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/lastVersion/js/jquery.dataTableGrouping.js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 15:23:53 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/lastVersion/js/jquery.dataTableGrouping.js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:41:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:41:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:41:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:41:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:41:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:41:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:41:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:41:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:43:20 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:43:20 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:43:20 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:43:20 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:43:20 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:43:20 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:43:20 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:05 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/demo_page.css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:05 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/demo_table.css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:05 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/themes, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:05 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/themes, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:05 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/jquery-ui.js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:06 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/images, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:09 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/images, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:57 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/demo_page.css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:57 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/demo_table.css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:57 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/themes, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:57 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/themes, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:58 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/jquery-ui.js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:45:58 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/images, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:46:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/demo_page.css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:46:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/demo_table.css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:46:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/themes, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:46:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/themes, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:46:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/jquery-ui.js, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:46:44 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/media/images, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:47:46 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/demo_page.css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:47:46 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/demo_table.css, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:47:46 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/themes, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:47:46 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/css/themes, referer: http://localhost.cie.recouvrement/
+[Fri Jul 24 16:47:46 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/lib/datatables/js/jquery-ui.js, referer: http://localhost.cie.recouvrement/
