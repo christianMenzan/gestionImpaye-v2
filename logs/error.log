@@ -1,0 +1,29 @@
+[Mon Jun 22 14:16:51 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/rapprochement/web/personnel
+[Mon Jun 22 14:16:57 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/rapprochement/web/favicon.ico
+[Mon Jun 22 14:16:57 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/rapprochement/web/favicon.ico
+[Mon Jun 22 14:16:57 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/rapprochement/web/favicon.ico
+[Thu Jul 16 17:30:06 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/favicon.ico
+[Thu Jul 16 17:30:06 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/favicon.ico
+[Thu Jul 16 17:32:33 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/favicon.ico
+[Thu Jul 16 17:32:33 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/favicon.ico
+[Thu Jul 16 17:53:40 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/mailto(), referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 09:07:10 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/favicon.ico
+[Tue Jul 21 09:07:10 2015] [error] [client 127.0.0.1] File does not exist: D:/Projet/_PHP/recouvrement/web/favicon.ico
+[Tue Jul 21 09:59:30 2015] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function mssql_connect() in D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php on line 14, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 09:59:30 2015] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 09:59:30 2015] [error] [client 127.0.0.1] PHP   1. {main}() D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php:0, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:18:12 2015] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function mssql_connect() in D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php on line 14, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:18:12 2015] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:18:12 2015] [error] [client 127.0.0.1] PHP   1. {main}() D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php:0, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:18:24 2015] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function mssql_connect() in D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php on line 14, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:18:24 2015] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:18:24 2015] [error] [client 127.0.0.1] PHP   1. {main}() D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php:0, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:33:18 2015] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '}' in D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php on line 172, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:54:58 2015] [error] [client 127.0.0.1] PHP Warning:  sqlsrv_fetch_array() expects parameter 1 to be resource, boolean given in D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php on line 43, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:54:58 2015] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:54:58 2015] [error] [client 127.0.0.1] PHP   1. {main}() D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php:0, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:54:58 2015] [error] [client 127.0.0.1] PHP   2. sqlsrv_fetch_array() D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php:43, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:54:58 2015] [error] [client 127.0.0.1] PHP Warning:  sqlsrv_free_stmt() expects parameter 1 to be resource, boolean given in D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php on line 48, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:54:58 2015] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:54:58 2015] [error] [client 127.0.0.1] PHP   1. {main}() D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php:0, referer: http://localhost.cie.recouvrement/
+[Tue Jul 21 10:54:58 2015] [error] [client 127.0.0.1] PHP   2. sqlsrv_free_stmt() D:\\Projet\\_PHP\\recouvrement\\web\\views\\dashboard.php:48, referer: http://localhost.cie.recouvrement/
