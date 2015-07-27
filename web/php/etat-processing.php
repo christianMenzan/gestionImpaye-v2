@@ -1,6 +1,6 @@
 <?php
     /* Indexed column (used for fast and accurate table cardinality) */
-    $sIndexColumn = "";
+    $sIndexColumn = "IDABON";
        
     /* DB table to use */
     $sTable = "ABONNE";
@@ -16,7 +16,7 @@
     * If you don't want all of the columns displayed you need to hardcode $aColumns array with your elements.
     * If not this will grab all the columns associated with $sTable
     */
-    $aColumns = array('CODEXP','NOMABON');
+    $aColumns = array('IDABON','CODEXP','NOMABON');
  
  
     /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -77,7 +77,8 @@
     $limit = (isset($_GET['iDisplayLength']))?((int)$_GET['iDisplayLength'] ):10;
     $sQuery = "SELECT TOP $limit ".implode(",",$aColumns)."
         FROM $sTable
-        $sWhere ".(($sWhere=="")?" WHERE ":" AND ")." $sIndexColumn NOT IN
+        $sWhere "
+            . "".(($sWhere=="")?" WHERE ":" AND ")." $sIndexColumn NOT IN
         (
             SELECT $sIndexColumn FROM
             (
@@ -89,9 +90,10 @@
             as [virtTable]
         )
         $sOrder";
-     
-    $rResult = sqlsrv_query($gaSql['link'],"SELECT TOP $limit ".implode(",",$aColumns)." FROM $sTable") or die("$sQuery: " . sqlsrv_errors());
-//    $rResult = sqlsrv_query($gaSql['link'],$sQuery) or die("$sQuery: " . sqlsrv_errors());
+    
+    
+//    $rResult = sqlsrv_query($gaSql['link'],"SELECT TOP $limit ".implode(",",$aColumns)." FROM $sTable") or die("$sQuery: " . sqlsrv_errors());
+    $rResult = sqlsrv_query($gaSql['link'],$sQuery) or die("$sQuery: " . sqlsrv_errors());
   
     $sQueryCnt = "SELECT * FROM $sTable $sWhere";
     $rResultCnt = sqlsrv_query( $gaSql['link'], $sQueryCnt ,$params, $options) or die (" $sQueryCnt: " . sqlsrv_errors());
@@ -102,7 +104,7 @@
     $iTotal = sqlsrv_num_rows( $rResultTotal );
        
     $output = array(
-//        "sEcho" => intval($_GET['sEcho']),
+        "sEcho" => intval($_GET['sEcho']),
         "iTotalRecords" => $iTotal,
         "iTotalDisplayRecords" => $iFilteredTotal,
         "aaData" => array()
