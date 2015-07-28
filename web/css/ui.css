@@ -69,7 +69,7 @@
 .tabs > section {
     border: 1px solid #CCC;
     border-top-width: 0;
-    padding: 20px;
+    padding: 20px 10px;
     }
     .tabs > section > section {
         }

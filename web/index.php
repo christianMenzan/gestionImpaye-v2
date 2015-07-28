@@ -177,15 +177,21 @@
                 <header>
                     <div class="container_12 clearfix">
                         <a href="#menu" class="showmenu button">Menu</a>
-                        <h1 class="grid_12">Tableau de bord</h1>
+                        <h1 class="grid_12">Exécution de l'état</h1>
                     </div>
                 </header>
                 <section id="main-content" class="clearfix">
+                    <div class="tabs grid_12 leading" style="margin:0 auto; text-align: center;">
+                         <p id='loading-content'>
+                           <img id='loading-graphic' width='16' height='16' src='images/ajax-loader-abc4ff.gif' />
+                           "Exécution en cours...
+                         </p>
+                     </div>
                 </section>
                 <footer class="clearfix">
                     <div class="container_12">
                         <div class="grid_12">
-                            Copyright &copy; 2011. Theme by <a target="_blank" href="http://themeforest.net/user/vivantdesigns?ref=vivantdesigns">VivantDesigns</a>
+                            Copyright &copy; 2015. Ce logiciel est un produit <a target="_blank" href="http://cienet.net">CIE</a> - Powered by Christian MENZAN
                         </div>
                     </div>
                 </footer>
