@@ -1,9 +1,9 @@
 <?php
     /* Indexed column (used for fast and accurate table cardinality) */
-    $sIndexColumn = "IDABON";
+    $sIndexColumn = "f.matragent";
        
     /* DB table to use */
-    $sTable = "ABONNE";
+    $sTable = "liste_abo h,reltournee r,reference..agent f , abonne a, reference..dictables d, tournee t";
      
     /* Database connection information */
     $gaSql['user']       = "GESADB";
@@ -16,7 +16,7 @@
     * If you don't want all of the columns displayed you need to hardcode $aColumns array with your elements.
     * If not this will grab all the columns associated with $sTable
     */
-    $aColumns = array('IDABON','CODEXP','NOMABON');
+    $aColumns = array('f.matragent','f.nomagent');
  
  
     /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -91,8 +91,23 @@
         )
         $sOrder";
     
-    
-//    $rResult = sqlsrv_query($gaSql['link'],"SELECT TOP $limit ".implode(",",$aColumns)." FROM $sTable") or die("$sQuery: " . sqlsrv_errors());
+//    $sQuery = "SELECT TOP 10 h.Identifiant,Nom_abonne,Nbre_Imp_Echu,Total_Imp_Echu
+//        FROM liste_abo, h.reltournee r,reference..agent f , abonne a, reference..dictables d, tournee t
+//          WHERE    h.identifiant = a.idabon and
+//                                                     codelemt = a.posabon and numtable = '24' and 
+//                                                     r.matrrelvr=f.MATRAGENT and
+//                                                     substring(h.refbranch, 1,3) = r.codexp and
+//                                                     substring(h.refbranch, 5,2) = r.codzone and
+//                                                     substring(h.refbranch, 7,3) = r.codtourne 
+//                                                     and
+//                                                     substring(h.refbranch, 1,3) = t.codexp and
+//                                                     substring(h.refbranch, 5,2) = t.codzone and
+//                                                     substring(h.refbranch, 7,3) = t.codtourne
+//          
+//
+//        ORDER BY  h.Identifiant";
+//    $rResult = sqlsrv_query($gaSql['link'],"SELECT TOP $limit ".implode(",",$aColumns)." FROM $sTable") 
+//            or die("$sQuery: " . sqlsrv_errors());
     $rResult = sqlsrv_query($gaSql['link'],$sQuery) or die("$sQuery: " . sqlsrv_errors());
   
     $sQueryCnt = "SELECT * FROM $sTable $sWhere";
@@ -104,7 +119,7 @@
     $iTotal = sqlsrv_num_rows( $rResultTotal );
        
     $output = array(
-        "sEcho" => intval($_GET['sEcho']),
+//        "sEcho" => intval($_GET['sEcho']),
         "iTotalRecords" => $iTotal,
         "iTotalDisplayRecords" => $iFilteredTotal,
         "aaData" => array()

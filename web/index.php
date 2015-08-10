@@ -202,7 +202,7 @@
     </div>
     
     <!-- MAIN JAVASCRIPTS -->
-    <script src="//code.jquery.com/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
         <!--<script src="js/jquery-1.4.4.min.js" type="text/javascript"></script>-->
     <script>window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")</script>
     <script type="text/javascript" src="js/jquery.tools.min.js"></script>
